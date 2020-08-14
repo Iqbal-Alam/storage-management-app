@@ -1,0 +1,35 @@
+<mat-tab-group>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">add_circle</mat-icon>
+        {{'add' | translate}}
+      </ng-template>
+      <add-product></add-product>
+    </mat-tab>
+  
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">add_shopping_cart</mat-icon>
+        {{'sale' | translate}}
+      </ng-template>
+      <sale></sale>
+    </mat-tab>
+  
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">insert_chart_outlined</mat-icon>
+        {{'stock' | translate}}
+      </ng-template>
+  
+      <stock></stock>
+    </mat-tab>
+
+    <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">list_alt</mat-icon>
+          {{'report' | translate}}
+        </ng-template>
+    
+        <report></report>
+      </mat-tab>
+  </mat-tab-group>

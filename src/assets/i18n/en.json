@@ -1,0 +1,22 @@
+{
+    "title":"Store Management",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "userText": "User",
+    "loginText": " Login",
+    "registerText": " Registeration",
+    "loginTitle": "Login page is working",
+    "backLogin": "Back to Login",
+    "username":"Username",
+    "password":"Password",
+    "login":"Login",
+    "registration":"Registration",
+    "fullname":"Full Name",
+    "mobile":"Mobile no",
+    "address":"Address",
+    "add":"Add Product",
+    "sale":"Sale",
+    "stock":"Stock",
+    "report":"Report"
+    
+}

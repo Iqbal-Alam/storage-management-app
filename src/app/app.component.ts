@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(public translate: TranslateService) {
+    this.translate.setDefaultLang('en');
+  }
   title = 'store-management-app';
+ 
+  changeLanguage(language: string, event: any){
+    if (event.isUserInput) {  
+      this.translate.setDefaultLang(language);
+    }
+  }
+  
 }
